@@ -4,17 +4,18 @@
   <head>
     <meta charset="utf-8">
 　　<title>時計</title> 
+    <script type="text/javascript" src="clock_time.js"></script>
+    <script type="text/javascript" src="clock_border.js"></script>
   </head>
 
-<body>
-
-   <!-- 時刻部分 -->
-   <div id="clock_time"></div>
-   <!-- 日付部分 -->
-   <div id="clock_date"></div>
-
-  <script type="text/javascript" src="clock_time.js"></script>
-  <script type="text/javascript" src="clock_border.js"></script>
-</body>
+  <body>
+    <!-- 時刻 -->
+    <div id="clock_time"></div>
+    <!-- 日付 -->
+    </div><div id="clock_date"></div>
+    <!-- ボタン -->
+    <input type="button" value=" ボタン " onclick="changeBorder('clock_time')";>
+    <input type="button" value=" ボタン " onclick="changeBorder('clock_date')";>
+  </body>
 
 </html>
